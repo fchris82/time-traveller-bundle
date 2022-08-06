@@ -1,0 +1,5 @@
+services:
+  fchris82.time_manager:
+    class: Fchris82\TimeTravellerBundle\Manager\TimeManager
+    arguments:
+      $timePassing: '%time_traveller.time_passing%'
